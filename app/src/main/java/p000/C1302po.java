@@ -1,0 +1,37 @@
+package p000;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+/* JADX INFO: renamed from: po */
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1302po {
+
+    /* JADX INFO: renamed from: e */
+    public static final /* synthetic */ int f8969e = 0;
+
+    /* JADX INFO: renamed from: a */
+    public final p02 f8970a;
+
+    /* JADX INFO: renamed from: b */
+    public final List f8971b;
+
+    /* JADX INFO: renamed from: c */
+    public final li0 f8972c;
+
+    /* JADX INFO: renamed from: d */
+    public final String f8973d;
+
+    static {
+        Collections.unmodifiableList(new ArrayList());
+    }
+
+    public C1302po(p02 p02Var, List list, li0 li0Var, String str) {
+        this.f8970a = p02Var;
+        this.f8971b = list;
+        this.f8972c = li0Var;
+        this.f8973d = str;
+    }
+}

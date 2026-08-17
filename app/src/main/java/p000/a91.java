@@ -1,0 +1,18 @@
+package p000;
+
+import android.app.Notification;
+import android.app.Person;
+
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class a91 {
+    /* JADX INFO: renamed from: a */
+    public static Notification.Builder m122a(Notification.Builder builder, Person person) {
+        return builder.addPerson(person);
+    }
+
+    /* JADX INFO: renamed from: b */
+    public static Notification.Action.Builder m123b(Notification.Action.Builder builder, int i) {
+        return builder.setSemanticAction(i);
+    }
+}

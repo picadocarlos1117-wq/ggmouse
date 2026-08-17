@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ssmousepro.app-mergeDebugResources-37:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\ggmouse\\app\\src\\main\\res\\values-h550dp-port\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "76",
+                        "endOffsets": "129"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "120",
+                        "endColumns": "76",
+                        "endOffsets": "192"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CarlosModz\\.gradle\\caches\\transforms-3\\012eeb6c271db8ad63a3e7552b0eec58\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}

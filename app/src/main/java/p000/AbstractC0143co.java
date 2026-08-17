@@ -1,0 +1,16 @@
+package p000;
+
+/* JADX INFO: renamed from: co */
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0143co {
+    public abstract void onClose(nv1 nv1Var, j51 j51Var);
+
+    public abstract void onMessage(Object obj);
+
+    public void onReady() {
+    }
+
+    public void onHeaders(j51 j51Var) {
+    }
+}

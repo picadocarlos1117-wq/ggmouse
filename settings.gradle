@@ -1,0 +1,3 @@
+rootProject.name = 'SSMousePro'
+
+include 'app'

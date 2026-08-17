@@ -1,0 +1,22 @@
+package p000;
+
+/* JADX INFO: renamed from: tl */
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1447tl {
+
+    /* JADX INFO: renamed from: a */
+    public final e41 f10901a;
+
+    /* JADX INFO: renamed from: b */
+    public final i31 f10902b;
+
+    /* JADX INFO: renamed from: c */
+    public final int f10903c;
+
+    public C1447tl(e41 e41Var, i31 i31Var, int i) {
+        this.f10901a = e41Var;
+        this.f10902b = i31Var;
+        this.f10903c = i;
+    }
+}

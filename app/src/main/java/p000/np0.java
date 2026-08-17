@@ -1,0 +1,11 @@
+package p000;
+
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public final class np0 extends AbstractC0616eu {
+    @Override // p000.AbstractC0018ah
+    public final Object invokeSuspend(Object obj) {
+        ua0.m6440Z(obj);
+        return obj;
+    }
+}

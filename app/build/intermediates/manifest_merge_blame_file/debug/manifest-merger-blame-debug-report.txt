@@ -1,0 +1,704 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ssmousepro"
+4    platformBuildVersionCode="36"
+5    platformBuildVersionName="16"
+6    android:compileSdkVersion="36"
+7    android:compileSdkVersionCodename="16"
+8    android:versionCode="39"
+9    android:versionName="1.0.39" >
+10
+11    <uses-sdk
+11-->C:\ggmouse\app\src\main\AndroidManifest.xml:10:5-12:40
+12        android:minSdkVersion="32"
+12-->C:\ggmouse\app\src\main\AndroidManifest.xml:11:9-35
+13        android:targetSdkVersion="34" />
+13-->C:\ggmouse\app\src\main\AndroidManifest.xml:12:9-38
+14
+15    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+15-->C:\ggmouse\app\src\main\AndroidManifest.xml:13:5-77
+15-->C:\ggmouse\app\src\main\AndroidManifest.xml:13:22-75
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->C:\ggmouse\app\src\main\AndroidManifest.xml:14:5-76
+16-->C:\ggmouse\app\src\main\AndroidManifest.xml:14:22-74
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+17-->C:\ggmouse\app\src\main\AndroidManifest.xml:15:5-88
+17-->C:\ggmouse\app\src\main\AndroidManifest.xml:15:22-86
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->C:\ggmouse\app\src\main\AndroidManifest.xml:16:5-76
+18-->C:\ggmouse\app\src\main\AndroidManifest.xml:16:22-74
+19    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+19-->C:\ggmouse\app\src\main\AndroidManifest.xml:17:5-77
+19-->C:\ggmouse\app\src\main\AndroidManifest.xml:17:22-75
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\ggmouse\app\src\main\AndroidManifest.xml:18:5-66
+20-->C:\ggmouse\app\src\main\AndroidManifest.xml:18:22-64
+21    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+21-->C:\ggmouse\app\src\main\AndroidManifest.xml:19:5-78
+21-->C:\ggmouse\app\src\main\AndroidManifest.xml:19:22-76
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\ggmouse\app\src\main\AndroidManifest.xml:20:5-78
+22-->C:\ggmouse\app\src\main\AndroidManifest.xml:20:22-76
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+23-->C:\ggmouse\app\src\main\AndroidManifest.xml:21:5-85
+23-->C:\ggmouse\app\src\main\AndroidManifest.xml:21:22-83
+24    <uses-permission
+24-->C:\ggmouse\app\src\main\AndroidManifest.xml:22:5-24:57
+25        android:name="android.permission.NEARBY_WIFI_DEVICES"
+25-->C:\ggmouse\app\src\main\AndroidManifest.xml:23:9-62
+26        android:usesPermissionFlags="neverForLocation" />
+26-->C:\ggmouse\app\src\main\AndroidManifest.xml:24:9-55
+27
+28    <queries>
+28-->C:\ggmouse\app\src\main\AndroidManifest.xml:25:5-33:15
+29        <package android:name="moe.shizuku.privileged.api" />
+29-->C:\ggmouse\app\src\main\AndroidManifest.xml:26:9-61
+29-->C:\ggmouse\app\src\main\AndroidManifest.xml:26:18-59
+30
+31        <intent>
+31-->C:\ggmouse\app\src\main\AndroidManifest.xml:27:9-29:18
+32            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+32-->C:\ggmouse\app\src\main\AndroidManifest.xml:28:13-90
+32-->C:\ggmouse\app\src\main\AndroidManifest.xml:28:21-88
+33        </intent>
+34        <intent>
+34-->C:\ggmouse\app\src\main\AndroidManifest.xml:30:9-32:18
+35            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+35-->C:\ggmouse\app\src\main\AndroidManifest.xml:31:13-115
+35-->C:\ggmouse\app\src\main\AndroidManifest.xml:31:21-113
+36        </intent>
+37    </queries>
+38    <queries>
+38-->C:\ggmouse\app\src\main\AndroidManifest.xml:25:5-33:15
+39        <intent>
+39-->C:\ggmouse\app\src\main\AndroidManifest.xml:35:9-38:18
+40            <action android:name="android.intent.action.MAIN" />
+40-->C:\ggmouse\app\src\main\AndroidManifest.xml:86:17-68
+40-->C:\ggmouse\app\src\main\AndroidManifest.xml:86:25-66
+41
+42            <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\ggmouse\app\src\main\AndroidManifest.xml:87:17-76
+42-->C:\ggmouse\app\src\main\AndroidManifest.xml:87:27-74
+43        </intent>
+44    </queries>
+45
+46    <uses-permission android:name="com.android.vending.BILLING" />
+46-->C:\ggmouse\app\src\main\AndroidManifest.xml:40:5-66
+46-->C:\ggmouse\app\src\main\AndroidManifest.xml:40:22-64
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->C:\ggmouse\app\src\main\AndroidManifest.xml:41:5-67
+47-->C:\ggmouse\app\src\main\AndroidManifest.xml:41:22-65
+48    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+48-->C:\ggmouse\app\src\main\AndroidManifest.xml:42:5-109
+48-->C:\ggmouse\app\src\main\AndroidManifest.xml:42:22-107
+49    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+49-->C:\ggmouse\app\src\main\AndroidManifest.xml:43:5-81
+49-->C:\ggmouse\app\src\main\AndroidManifest.xml:43:22-79
+50
+51    <permission
+51-->C:\ggmouse\app\src\main\AndroidManifest.xml:44:5-46:46
+52        android:name="com.sousasantoslogic.sspro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->C:\ggmouse\app\src\main\AndroidManifest.xml:45:9-91
+53        android:protectionLevel="signature" />
+53-->C:\ggmouse\app\src\main\AndroidManifest.xml:46:9-44
+54
+55    <uses-permission android:name="com.sousasantoslogic.sspro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->C:\ggmouse\app\src\main\AndroidManifest.xml:47:5-106
+55-->C:\ggmouse\app\src\main\AndroidManifest.xml:47:22-104
+56    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+56-->C:\ggmouse\app\src\main\AndroidManifest.xml:48:5-97
+56-->C:\ggmouse\app\src\main\AndroidManifest.xml:48:22-95
+57    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+57-->C:\ggmouse\app\src\main\AndroidManifest.xml:49:5-87
+57-->C:\ggmouse\app\src\main\AndroidManifest.xml:49:22-85
+58    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+58-->C:\ggmouse\app\src\main\AndroidManifest.xml:50:5-81
+58-->C:\ggmouse\app\src\main\AndroidManifest.xml:50:22-79
+59    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+59-->C:\ggmouse\app\src\main\AndroidManifest.xml:51:5-77
+59-->C:\ggmouse\app\src\main\AndroidManifest.xml:51:22-75
+60    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+60-->C:\ggmouse\app\src\main\AndroidManifest.xml:52:5-80
+60-->C:\ggmouse\app\src\main\AndroidManifest.xml:52:22-78
+61    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+61-->C:\ggmouse\app\src\main\AndroidManifest.xml:53:5-74
+61-->C:\ggmouse\app\src\main\AndroidManifest.xml:53:22-72
+62    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+62-->C:\ggmouse\app\src\main\AndroidManifest.xml:54:5-79
+62-->C:\ggmouse\app\src\main\AndroidManifest.xml:54:22-77
+63    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+63-->C:\ggmouse\app\src\main\AndroidManifest.xml:326:5-72
+63-->C:\ggmouse\app\src\main\AndroidManifest.xml:326:22-70
+64
+65    <permission
+65-->[androidx.core:core:1.9.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+66        android:name="com.ssmousepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+66-->[androidx.core:core:1.9.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+67        android:protectionLevel="signature" />
+67-->[androidx.core:core:1.9.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+68
+69    <uses-permission android:name="com.ssmousepro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+69-->[androidx.core:core:1.9.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+69-->[androidx.core:core:1.9.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+70
+71    <application
+71-->C:\ggmouse\app\src\main\AndroidManifest.xml:55:5-325:19
+72        android:name="com.pairip.application.Application"
+72-->C:\ggmouse\app\src\main\AndroidManifest.xml:59:9-58
+73        android:allowBackup="true"
+73-->C:\ggmouse\app\src\main\AndroidManifest.xml:60:9-35
+74        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+74-->C:\ggmouse\app\src\main\AndroidManifest.xml:65:9-77
+75        android:dataExtractionRules="@xml/data_extraction_rules"
+75-->C:\ggmouse\app\src\main\AndroidManifest.xml:66:9-65
+76        android:debuggable="true"
+77        android:extractNativeLibs="false"
+77-->C:\ggmouse\app\src\main\AndroidManifest.xml:62:9-42
+78        android:fullBackupContent="@xml/backup_rules"
+78-->C:\ggmouse\app\src\main\AndroidManifest.xml:63:9-54
+79        android:icon="@mipmap/ic_launcher"
+79-->C:\ggmouse\app\src\main\AndroidManifest.xml:58:9-43
+80        android:label="@string/app_name"
+80-->C:\ggmouse\app\src\main\AndroidManifest.xml:57:9-41
+81        android:roundIcon="@mipmap/ic_launcher_round"
+81-->C:\ggmouse\app\src\main\AndroidManifest.xml:64:9-54
+82        android:supportsRtl="true"
+82-->C:\ggmouse\app\src\main\AndroidManifest.xml:61:9-35
+83        android:theme="@style/Theme.SSMousePRO" >
+83-->C:\ggmouse\app\src\main\AndroidManifest.xml:56:9-48
+84        <provider
+84-->C:\ggmouse\app\src\main\AndroidManifest.xml:67:9-81:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->C:\ggmouse\app\src\main\AndroidManifest.xml:68:13-67
+86            android:authorities="com.sousasantoslogic.sspro.androidx-startup"
+86-->C:\ggmouse\app\src\main\AndroidManifest.xml:70:13-78
+87            android:exported="false" >
+87-->C:\ggmouse\app\src\main\AndroidManifest.xml:69:13-37
+88            <meta-data
+88-->C:\ggmouse\app\src\main\AndroidManifest.xml:72:13-74:51
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->C:\ggmouse\app\src\main\AndroidManifest.xml:73:17-75
+90                android:value="androidx.startup" />
+90-->C:\ggmouse\app\src\main\AndroidManifest.xml:74:17-49
+91            <meta-data
+91-->C:\ggmouse\app\src\main\AndroidManifest.xml:75:13-77:51
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->C:\ggmouse\app\src\main\AndroidManifest.xml:76:17-78
+93                android:value="androidx.startup" />
+93-->C:\ggmouse\app\src\main\AndroidManifest.xml:77:17-49
+94            <meta-data
+94-->C:\ggmouse\app\src\main\AndroidManifest.xml:78:13-80:51
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->C:\ggmouse\app\src\main\AndroidManifest.xml:79:17-85
+96                android:value="androidx.startup" />
+96-->C:\ggmouse\app\src\main\AndroidManifest.xml:80:17-49
+97        </provider>
+98
+99        <activity
+99-->C:\ggmouse\app\src\main\AndroidManifest.xml:82:9-89:20
+100            android:name="com.example.ssmousepro.LoginActivity"
+100-->C:\ggmouse\app\src\main\AndroidManifest.xml:83:13-64
+101            android:exported="true" >
+101-->C:\ggmouse\app\src\main\AndroidManifest.xml:84:13-36
+102            <intent-filter>
+102-->C:\ggmouse\app\src\main\AndroidManifest.xml:85:13-88:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->C:\ggmouse\app\src\main\AndroidManifest.xml:86:17-68
+103-->C:\ggmouse\app\src\main\AndroidManifest.xml:86:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->C:\ggmouse\app\src\main\AndroidManifest.xml:87:17-76
+105-->C:\ggmouse\app\src\main\AndroidManifest.xml:87:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->C:\ggmouse\app\src\main\AndroidManifest.xml:90:9-92:39
+109            android:name="com.example.ssmousepro.MainActivity"
+109-->C:\ggmouse\app\src\main\AndroidManifest.xml:91:13-63
+110            android:exported="false" />
+110-->C:\ggmouse\app\src\main\AndroidManifest.xml:92:13-37
+111        <activity
+111-->C:\ggmouse\app\src\main\AndroidManifest.xml:93:9-95:39
+112            android:name="com.example.ssmousepro.PreferencesActivity"
+112-->C:\ggmouse\app\src\main\AndroidManifest.xml:94:13-70
+113            android:exported="false" />
+113-->C:\ggmouse\app\src\main\AndroidManifest.xml:95:13-37
+114        <activity
+114-->C:\ggmouse\app\src\main\AndroidManifest.xml:96:9-100:51
+115            android:name="com.example.ssmousepro.ads.RewardedVideoActivity"
+115-->C:\ggmouse\app\src\main\AndroidManifest.xml:98:13-76
+116            android:exported="false"
+116-->C:\ggmouse\app\src\main\AndroidManifest.xml:99:13-37
+117            android:screenOrientation="portrait"
+117-->C:\ggmouse\app\src\main\AndroidManifest.xml:100:13-49
+118            android:theme="@style/Theme.SSMousePRO" />
+118-->C:\ggmouse\app\src\main\AndroidManifest.xml:97:13-52
+119        <activity
+119-->C:\ggmouse\app\src\main\AndroidManifest.xml:101:9-103:39
+120            android:name="com.example.ssmousepro.activation.WirelessActivationActivity"
+120-->C:\ggmouse\app\src\main\AndroidManifest.xml:102:13-88
+121            android:exported="false" />
+121-->C:\ggmouse\app\src\main\AndroidManifest.xml:103:13-37
+122
+123        <service
+123-->C:\ggmouse\app\src\main\AndroidManifest.xml:104:9-111:19
+124            android:name="com.example.ssmousepro.activation.AdbPairingService"
+124-->C:\ggmouse\app\src\main\AndroidManifest.xml:105:13-79
+125            android:exported="false"
+125-->C:\ggmouse\app\src\main\AndroidManifest.xml:106:13-37
+126            android:foregroundServiceType="specialUse" >
+126-->C:\ggmouse\app\src\main\AndroidManifest.xml:107:13-55
+127            <property
+127-->C:\ggmouse\app\src\main\AndroidManifest.xml:108:13-110:77
+128                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+128-->C:\ggmouse\app\src\main\AndroidManifest.xml:109:17-76
+129                android:value="Emparelhamento Depuração Wi-Fi do mapeador" />
+129-->C:\ggmouse\app\src\main\AndroidManifest.xml:110:17-75
+130        </service>
+131        <service
+131-->C:\ggmouse\app\src\main\AndroidManifest.xml:112:9-116:57
+132            android:name="com.example.ssmousepro.FloatingService"
+132-->C:\ggmouse\app\src\main\AndroidManifest.xml:113:13-66
+133            android:exported="false"
+133-->C:\ggmouse\app\src\main\AndroidManifest.xml:114:13-37
+134            android:foregroundServiceType="specialUse"
+134-->C:\ggmouse\app\src\main\AndroidManifest.xml:116:13-55
+135            android:stopWithTask="true" />
+135-->C:\ggmouse\app\src\main\AndroidManifest.xml:115:13-40
+136
+137        <provider
+137-->C:\ggmouse\app\src\main\AndroidManifest.xml:117:9-123:71
+138            android:name="rikka.shizuku.ShizukuProvider"
+138-->C:\ggmouse\app\src\main\AndroidManifest.xml:118:13-57
+139            android:authorities="com.sousasantoslogic.sspro.shizuku"
+139-->C:\ggmouse\app\src\main\AndroidManifest.xml:123:13-69
+140            android:enabled="true"
+140-->C:\ggmouse\app\src\main\AndroidManifest.xml:120:13-35
+141            android:exported="true"
+141-->C:\ggmouse\app\src\main\AndroidManifest.xml:121:13-36
+142            android:multiprocess="false"
+142-->C:\ggmouse\app\src\main\AndroidManifest.xml:122:13-41
+143            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+143-->C:\ggmouse\app\src\main\AndroidManifest.xml:119:13-79
+144
+145        <service
+145-->C:\ggmouse\app\src\main\AndroidManifest.xml:124:9-173:19
+146            android:name="com.google.firebase.components.ComponentDiscoveryService"
+146-->C:\ggmouse\app\src\main\AndroidManifest.xml:125:13-84
+147            android:directBootAware="true"
+147-->C:\ggmouse\app\src\main\AndroidManifest.xml:127:13-43
+148            android:exported="false" >
+148-->C:\ggmouse\app\src\main\AndroidManifest.xml:126:13-37
+149            <meta-data
+149-->C:\ggmouse\app\src\main\AndroidManifest.xml:128:13-130:84
+150                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+150-->C:\ggmouse\app\src\main\AndroidManifest.xml:129:17-119
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->C:\ggmouse\app\src\main\AndroidManifest.xml:130:17-82
+152            <meta-data
+152-->C:\ggmouse\app\src\main\AndroidManifest.xml:131:13-133:84
+153                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+153-->C:\ggmouse\app\src\main\AndroidManifest.xml:132:17-109
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->C:\ggmouse\app\src\main\AndroidManifest.xml:133:17-82
+155            <meta-data
+155-->C:\ggmouse\app\src\main\AndroidManifest.xml:134:13-136:84
+156                android:name="com.google.firebase.components:com.google.firebase.functions.ktx.FirebaseFunctionsLegacyRegistrar"
+156-->C:\ggmouse\app\src\main\AndroidManifest.xml:135:17-129
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->C:\ggmouse\app\src\main\AndroidManifest.xml:136:17-82
+158            <meta-data
+158-->C:\ggmouse\app\src\main\AndroidManifest.xml:137:13-139:84
+159                android:name="com.google.firebase.components:com.google.firebase.functions.FirebaseFunctionsKtxRegistrar"
+159-->C:\ggmouse\app\src\main\AndroidManifest.xml:138:17-122
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->C:\ggmouse\app\src\main\AndroidManifest.xml:139:17-82
+161            <meta-data
+161-->C:\ggmouse\app\src\main\AndroidManifest.xml:140:13-142:84
+162                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+162-->C:\ggmouse\app\src\main\AndroidManifest.xml:141:17-111
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->C:\ggmouse\app\src\main\AndroidManifest.xml:142:17-82
+164            <meta-data
+164-->C:\ggmouse\app\src\main\AndroidManifest.xml:143:13-145:84
+165                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+165-->C:\ggmouse\app\src\main\AndroidManifest.xml:144:17-129
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->C:\ggmouse\app\src\main\AndroidManifest.xml:145:17-82
+167            <meta-data
+167-->C:\ggmouse\app\src\main\AndroidManifest.xml:146:13-148:84
+168                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+168-->C:\ggmouse\app\src\main\AndroidManifest.xml:147:17-122
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->C:\ggmouse\app\src\main\AndroidManifest.xml:148:17-82
+170            <meta-data
+170-->C:\ggmouse\app\src\main\AndroidManifest.xml:149:13-151:84
+171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+171-->C:\ggmouse\app\src\main\AndroidManifest.xml:150:17-111
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->C:\ggmouse\app\src\main\AndroidManifest.xml:151:17-82
+173            <meta-data
+173-->C:\ggmouse\app\src\main\AndroidManifest.xml:152:13-154:84
+174                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+174-->C:\ggmouse\app\src\main\AndroidManifest.xml:153:17-129
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->C:\ggmouse\app\src\main\AndroidManifest.xml:154:17-82
+176            <meta-data
+176-->C:\ggmouse\app\src\main\AndroidManifest.xml:155:13-157:84
+177                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+177-->C:\ggmouse\app\src\main\AndroidManifest.xml:156:17-96
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->C:\ggmouse\app\src\main\AndroidManifest.xml:157:17-82
+179            <meta-data
+179-->C:\ggmouse\app\src\main\AndroidManifest.xml:158:13-160:84
+180                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+180-->C:\ggmouse\app\src\main\AndroidManifest.xml:159:17-139
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->C:\ggmouse\app\src\main\AndroidManifest.xml:160:17-82
+182            <meta-data
+182-->C:\ggmouse\app\src\main\AndroidManifest.xml:161:13-163:84
+183                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+183-->C:\ggmouse\app\src\main\AndroidManifest.xml:162:17-130
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->C:\ggmouse\app\src\main\AndroidManifest.xml:163:17-82
+185            <meta-data
+185-->C:\ggmouse\app\src\main\AndroidManifest.xml:164:13-166:84
+186                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+186-->C:\ggmouse\app\src\main\AndroidManifest.xml:165:17-127
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->C:\ggmouse\app\src\main\AndroidManifest.xml:166:17-82
+188            <meta-data
+188-->C:\ggmouse\app\src\main\AndroidManifest.xml:167:13-169:84
+189                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+189-->C:\ggmouse\app\src\main\AndroidManifest.xml:168:17-116
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->C:\ggmouse\app\src\main\AndroidManifest.xml:169:17-82
+191            <meta-data
+191-->C:\ggmouse\app\src\main\AndroidManifest.xml:170:13-172:84
+192                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+192-->C:\ggmouse\app\src\main\AndroidManifest.xml:171:17-109
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->C:\ggmouse\app\src\main\AndroidManifest.xml:172:17-82
+194        </service>
+195
+196        <activity
+196-->C:\ggmouse\app\src\main\AndroidManifest.xml:174:9-189:20
+197            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+197-->C:\ggmouse\app\src\main\AndroidManifest.xml:176:13-80
+198            android:excludeFromRecents="true"
+198-->C:\ggmouse\app\src\main\AndroidManifest.xml:178:13-46
+199            android:exported="true"
+199-->C:\ggmouse\app\src\main\AndroidManifest.xml:177:13-36
+200            android:launchMode="singleTask"
+200-->C:\ggmouse\app\src\main\AndroidManifest.xml:179:13-44
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+201-->C:\ggmouse\app\src\main\AndroidManifest.xml:175:13-72
+202            <intent-filter>
+202-->C:\ggmouse\app\src\main\AndroidManifest.xml:180:13-188:29
+203                <action android:name="android.intent.action.VIEW" />
+203-->C:\ggmouse\app\src\main\AndroidManifest.xml:181:17-68
+203-->C:\ggmouse\app\src\main\AndroidManifest.xml:181:25-66
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->C:\ggmouse\app\src\main\AndroidManifest.xml:182:17-75
+205-->C:\ggmouse\app\src\main\AndroidManifest.xml:182:27-73
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->C:\ggmouse\app\src\main\AndroidManifest.xml:183:17-77
+206-->C:\ggmouse\app\src\main\AndroidManifest.xml:183:27-75
+207
+208                <data
+208-->C:\ggmouse\app\src\main\AndroidManifest.xml:184:17-187:39
+209                    android:host="firebase.auth"
+209-->C:\ggmouse\app\src\main\AndroidManifest.xml:186:21-49
+210                    android:path="/"
+210-->C:\ggmouse\app\src\main\AndroidManifest.xml:187:21-37
+211                    android:scheme="genericidp" />
+211-->C:\ggmouse\app\src\main\AndroidManifest.xml:185:21-48
+212            </intent-filter>
+213        </activity>
+214        <activity
+214-->C:\ggmouse\app\src\main\AndroidManifest.xml:190:9-205:20
+215            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+215-->C:\ggmouse\app\src\main\AndroidManifest.xml:192:13-79
+216            android:excludeFromRecents="true"
+216-->C:\ggmouse\app\src\main\AndroidManifest.xml:194:13-46
+217            android:exported="true"
+217-->C:\ggmouse\app\src\main\AndroidManifest.xml:193:13-36
+218            android:launchMode="singleTask"
+218-->C:\ggmouse\app\src\main\AndroidManifest.xml:195:13-44
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+219-->C:\ggmouse\app\src\main\AndroidManifest.xml:191:13-72
+220            <intent-filter>
+220-->C:\ggmouse\app\src\main\AndroidManifest.xml:196:13-204:29
+221                <action android:name="android.intent.action.VIEW" />
+221-->C:\ggmouse\app\src\main\AndroidManifest.xml:181:17-68
+221-->C:\ggmouse\app\src\main\AndroidManifest.xml:181:25-66
+222
+223                <category android:name="android.intent.category.DEFAULT" />
+223-->C:\ggmouse\app\src\main\AndroidManifest.xml:182:17-75
+223-->C:\ggmouse\app\src\main\AndroidManifest.xml:182:27-73
+224                <category android:name="android.intent.category.BROWSABLE" />
+224-->C:\ggmouse\app\src\main\AndroidManifest.xml:183:17-77
+224-->C:\ggmouse\app\src\main\AndroidManifest.xml:183:27-75
+225
+226                <data
+226-->C:\ggmouse\app\src\main\AndroidManifest.xml:184:17-187:39
+227                    android:host="firebase.auth"
+227-->C:\ggmouse\app\src\main\AndroidManifest.xml:186:21-49
+228                    android:path="/"
+228-->C:\ggmouse\app\src\main\AndroidManifest.xml:187:21-37
+229                    android:scheme="recaptcha" />
+229-->C:\ggmouse\app\src\main\AndroidManifest.xml:185:21-48
+230            </intent-filter>
+231        </activity>
+232
+233        <service
+233-->C:\ggmouse\app\src\main\AndroidManifest.xml:206:9-213:19
+234            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+234-->C:\ggmouse\app\src\main\AndroidManifest.xml:207:13-94
+235            android:enabled="true"
+235-->C:\ggmouse\app\src\main\AndroidManifest.xml:208:13-35
+236            android:exported="false" >
+236-->C:\ggmouse\app\src\main\AndroidManifest.xml:209:13-37
+237            <meta-data
+237-->C:\ggmouse\app\src\main\AndroidManifest.xml:210:13-212:103
+238                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+238-->C:\ggmouse\app\src\main\AndroidManifest.xml:211:17-76
+239                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+239-->C:\ggmouse\app\src\main\AndroidManifest.xml:212:17-101
+240        </service>
+241
+242        <activity
+242-->C:\ggmouse\app\src\main\AndroidManifest.xml:214:9-220:47
+243            android:name="androidx.credentials.playservices.HiddenActivity"
+243-->C:\ggmouse\app\src\main\AndroidManifest.xml:216:13-76
+244            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+244-->C:\ggmouse\app\src\main\AndroidManifest.xml:219:13-87
+245            android:enabled="true"
+245-->C:\ggmouse\app\src\main\AndroidManifest.xml:217:13-35
+246            android:exported="false"
+246-->C:\ggmouse\app\src\main\AndroidManifest.xml:218:13-37
+247            android:fitsSystemWindows="true"
+247-->C:\ggmouse\app\src\main\AndroidManifest.xml:220:13-45
+248            android:theme="@style/Theme.Hidden" />
+248-->C:\ggmouse\app\src\main\AndroidManifest.xml:215:13-48
+249        <activity
+249-->C:\ggmouse\app\src\main\AndroidManifest.xml:221:9-225:48
+250            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+250-->C:\ggmouse\app\src\main\AndroidManifest.xml:223:13-93
+251            android:excludeFromRecents="true"
+251-->C:\ggmouse\app\src\main\AndroidManifest.xml:225:13-46
+252            android:exported="false"
+252-->C:\ggmouse\app\src\main\AndroidManifest.xml:224:13-37
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+253-->C:\ggmouse\app\src\main\AndroidManifest.xml:222:13-72
+254        <!--
+255        <service
+256            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+257            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+258            android:exported="true"
+259            android:visibleToInstantApps="true"/>
+260        -->
+261        <!--
+262        <meta-data
+263            android:name="com.google.android.play.billingclient.version"
+264            android:value="8.0.0"/>
+265        <activity
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+267            android:name="com.android.billingclient.api.ProxyBillingActivity"
+268            android:exported="false"
+269            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+270        <activity
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+272            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+273            android:exported="false"
+274            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+275        -->
+276        <receiver
+276-->C:\ggmouse\app\src\main\AndroidManifest.xml:248:9-251:39
+277            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+277-->C:\ggmouse\app\src\main\AndroidManifest.xml:249:13-85
+278            android:enabled="true"
+278-->C:\ggmouse\app\src\main\AndroidManifest.xml:250:13-35
+279            android:exported="false" />
+279-->C:\ggmouse\app\src\main\AndroidManifest.xml:251:13-37
+280
+281        <service
+281-->C:\ggmouse\app\src\main\AndroidManifest.xml:252:9-255:39
+282            android:name="com.google.android.gms.measurement.AppMeasurementService"
+282-->C:\ggmouse\app\src\main\AndroidManifest.xml:253:13-84
+283            android:enabled="true"
+283-->C:\ggmouse\app\src\main\AndroidManifest.xml:254:13-35
+284            android:exported="false" />
+284-->C:\ggmouse\app\src\main\AndroidManifest.xml:255:13-37
+285        <service
+285-->C:\ggmouse\app\src\main\AndroidManifest.xml:256:9-260:39
+286            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+286-->C:\ggmouse\app\src\main\AndroidManifest.xml:257:13-87
+287            android:enabled="true"
+287-->C:\ggmouse\app\src\main\AndroidManifest.xml:259:13-35
+288            android:exported="false"
+288-->C:\ggmouse\app\src\main\AndroidManifest.xml:260:13-37
+289            android:permission="android.permission.BIND_JOB_SERVICE" />
+289-->C:\ggmouse\app\src\main\AndroidManifest.xml:258:13-69
+290
+291        <activity
+291-->C:\ggmouse\app\src\main\AndroidManifest.xml:261:9-264:39
+292            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+292-->C:\ggmouse\app\src\main\AndroidManifest.xml:263:13-79
+293            android:exported="false"
+293-->C:\ggmouse\app\src\main\AndroidManifest.xml:264:13-37
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+294-->C:\ggmouse\app\src\main\AndroidManifest.xml:262:13-72
+295
+296        <uses-library
+296-->C:\ggmouse\app\src\main\AndroidManifest.xml:265:9-267:39
+297            android:name="android.ext.adservices"
+297-->C:\ggmouse\app\src\main\AndroidManifest.xml:266:13-50
+298            android:required="false" />
+298-->C:\ggmouse\app\src\main\AndroidManifest.xml:267:13-37
+299
+300        <property
+300-->C:\ggmouse\app\src\main\AndroidManifest.xml:108:13-110:77
+301            android:name="android.adservices.AD_SERVICES_CONFIG"
+301-->C:\ggmouse\app\src\main\AndroidManifest.xml:109:17-76
+302            android:resource="@xml/ga_ad_services_config" />
+302-->C:\ggmouse\app\src\main\AndroidManifest.xml:270:13-58
+303
+304        <provider
+304-->C:\ggmouse\app\src\main\AndroidManifest.xml:271:9-277:50
+305            android:name="com.google.firebase.provider.FirebaseInitProvider"
+305-->C:\ggmouse\app\src\main\AndroidManifest.xml:272:13-77
+306            android:authorities="com.sousasantoslogic.sspro.firebaseinitprovider"
+306-->C:\ggmouse\app\src\main\AndroidManifest.xml:274:13-82
+307            android:directBootAware="true"
+307-->C:\ggmouse\app\src\main\AndroidManifest.xml:276:13-43
+308            android:exported="false"
+308-->C:\ggmouse\app\src\main\AndroidManifest.xml:273:13-37
+309            android:initOrder="100" />
+309-->C:\ggmouse\app\src\main\AndroidManifest.xml:275:13-36
+310
+311        <meta-data
+311-->C:\ggmouse\app\src\main\AndroidManifest.xml:278:9-280:68
+312            android:name="com.google.android.gms.version"
+312-->C:\ggmouse\app\src\main\AndroidManifest.xml:279:13-58
+313            android:value="@integer/google_play_services_version" />
+313-->C:\ggmouse\app\src\main\AndroidManifest.xml:280:13-66
+314        <meta-data
+314-->C:\ggmouse\app\src\main\AndroidManifest.xml:281:9-283:35
+315            android:name="moe.shizuku.client.V3_SUPPORT"
+315-->C:\ggmouse\app\src\main\AndroidManifest.xml:282:13-57
+316            android:value="true" />
+316-->C:\ggmouse\app\src\main\AndroidManifest.xml:283:13-33
+317
+318        <receiver
+318-->C:\ggmouse\app\src\main\AndroidManifest.xml:284:9-302:20
+319            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+319-->C:\ggmouse\app\src\main\AndroidManifest.xml:285:13-76
+320            android:directBootAware="false"
+320-->C:\ggmouse\app\src\main\AndroidManifest.xml:289:13-44
+321            android:enabled="true"
+321-->C:\ggmouse\app\src\main\AndroidManifest.xml:287:13-35
+322            android:exported="true"
+322-->C:\ggmouse\app\src\main\AndroidManifest.xml:288:13-36
+323            android:permission="android.permission.DUMP" >
+323-->C:\ggmouse\app\src\main\AndroidManifest.xml:286:13-57
+324            <intent-filter>
+324-->C:\ggmouse\app\src\main\AndroidManifest.xml:290:13-292:29
+325                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+325-->C:\ggmouse\app\src\main\AndroidManifest.xml:291:17-90
+325-->C:\ggmouse\app\src\main\AndroidManifest.xml:291:25-88
+326            </intent-filter>
+327            <intent-filter>
+327-->C:\ggmouse\app\src\main\AndroidManifest.xml:293:13-295:29
+328                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+328-->C:\ggmouse\app\src\main\AndroidManifest.xml:294:17-84
+328-->C:\ggmouse\app\src\main\AndroidManifest.xml:294:25-82
+329            </intent-filter>
+330            <intent-filter>
+330-->C:\ggmouse\app\src\main\AndroidManifest.xml:296:13-298:29
+331                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+331-->C:\ggmouse\app\src\main\AndroidManifest.xml:297:17-87
+331-->C:\ggmouse\app\src\main\AndroidManifest.xml:297:25-85
+332            </intent-filter>
+333            <intent-filter>
+333-->C:\ggmouse\app\src\main\AndroidManifest.xml:299:13-301:29
+334                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+334-->C:\ggmouse\app\src\main\AndroidManifest.xml:300:17-94
+334-->C:\ggmouse\app\src\main\AndroidManifest.xml:300:25-92
+335            </intent-filter>
+336        </receiver>
+337
+338        <service
+338-->C:\ggmouse\app\src\main\AndroidManifest.xml:303:9-309:19
+339            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+339-->C:\ggmouse\app\src\main\AndroidManifest.xml:304:13-103
+340            android:exported="false" >
+340-->C:\ggmouse\app\src\main\AndroidManifest.xml:305:13-37
+341            <meta-data
+341-->C:\ggmouse\app\src\main\AndroidManifest.xml:306:13-308:38
+342                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+342-->C:\ggmouse\app\src\main\AndroidManifest.xml:307:17-94
+343                android:value="cct" />
+343-->C:\ggmouse\app\src\main\AndroidManifest.xml:308:17-36
+344        </service>
+345        <service
+345-->C:\ggmouse\app\src\main\AndroidManifest.xml:310:9-313:39
+346            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+346-->C:\ggmouse\app\src\main\AndroidManifest.xml:311:13-117
+347            android:exported="false"
+347-->C:\ggmouse\app\src\main\AndroidManifest.xml:313:13-37
+348            android:permission="android.permission.BIND_JOB_SERVICE" />
+348-->C:\ggmouse\app\src\main\AndroidManifest.xml:312:13-69
+349
+350        <receiver
+350-->C:\ggmouse\app\src\main\AndroidManifest.xml:314:9-316:39
+351            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+351-->C:\ggmouse\app\src\main\AndroidManifest.xml:315:13-132
+352            android:exported="false" />
+352-->C:\ggmouse\app\src\main\AndroidManifest.xml:316:13-37
+353
+354        <activity
+354-->C:\ggmouse\app\src\main\AndroidManifest.xml:317:9-321:44
+355            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+355-->C:\ggmouse\app\src\main\AndroidManifest.xml:319:13-93
+356            android:exported="false"
+356-->C:\ggmouse\app\src\main\AndroidManifest.xml:320:13-37
+357            android:stateNotNeeded="true"
+357-->C:\ggmouse\app\src\main\AndroidManifest.xml:321:13-42
+358            android:theme="@style/Theme.PlayCore.Transparent" />
+358-->C:\ggmouse\app\src\main\AndroidManifest.xml:318:13-62
+359        <activity
+359-->C:\ggmouse\app\src\main\AndroidManifest.xml:322:9-324:39
+360            android:name="com.pairip.licensecheck.LicenseActivity"
+360-->C:\ggmouse\app\src\main\AndroidManifest.xml:323:13-67
+361            android:exported="false" />
+361-->C:\ggmouse\app\src\main\AndroidManifest.xml:324:13-37
+362
+363        <meta-data
+363-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:19:9-21:37
+364            android:name="com.google.android.play.billingclient.version"
+364-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:20:13-73
+365            android:value="6.1.0" />
+365-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:21:13-34
+366
+367        <activity
+367-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:23:9-27:75
+368            android:name="com.android.billingclient.api.ProxyBillingActivity"
+368-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:24:13-78
+369            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+369-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:25:13-96
+370            android:exported="false"
+370-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:26:13-37
+371            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+371-->[com.android.billingclient:billing:6.1.0] C:\Users\CarlosModz\.gradle\caches\transforms-3\2ec0018fa4d1fa4160b136a38261aeca\transformed\jetified-billing-6.1.0\AndroidManifest.xml:27:13-72
+372
+373        <property
+373-->C:\ggmouse\app\src\main\AndroidManifest.xml:108:13-110:77
+374            android:name="android.adservices.AD_SERVICES_CONFIG"
+374-->C:\ggmouse\app\src\main\AndroidManifest.xml:109:17-76
+375            android:resource="@xml/ga_ad_services_config" />
+375-->C:\ggmouse\app\src\main\AndroidManifest.xml:270:13-58
+376    </application>
+377
+378</manifest>

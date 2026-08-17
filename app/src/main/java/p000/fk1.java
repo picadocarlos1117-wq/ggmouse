@@ -1,0 +1,15 @@
+package p000;
+
+import java.io.Serializable;
+
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public final class fk1 implements Serializable {
+
+    /* JADX INFO: renamed from: a */
+    public Object f3843a;
+
+    public final String toString() {
+        return String.valueOf(this.f3843a);
+    }
+}

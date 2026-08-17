@@ -1,0 +1,17 @@
+package androidx.media3.exoplayer.image;
+
+import android.graphics.Bitmap;
+import p000.gm0;
+
+/* JADX INFO: compiled from: r8-map-id-111b6a80b616d31e8b9d8e722d2d8cc99d6979087cf6e6d25de4f2652b3eb537 */
+/* JADX INFO: loaded from: classes.dex */
+public interface ImageOutput {
+
+    /* JADX INFO: renamed from: a */
+    public static final gm0 f783a = new gm0();
+
+    /* JADX INFO: renamed from: a */
+    void mo444a();
+
+    void onImageAvailable(long j, Bitmap bitmap);
+}
